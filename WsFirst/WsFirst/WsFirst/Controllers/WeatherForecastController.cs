@@ -16,6 +16,12 @@ namespace WsFirst.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
+
+        private static readonly string[] Towns = new[]
+        {
+            "Thann", "Mulhouse", "Colmar"
+        };
+
         private readonly ILogger<WeatherForecastController> _logger;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
@@ -31,7 +37,8 @@ namespace WsFirst.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = Summaries[rng.Next(Summaries.Length)],
+                Town = Towns[rng.Next(Towns.Length)]
             })
             .ToArray();
         }
