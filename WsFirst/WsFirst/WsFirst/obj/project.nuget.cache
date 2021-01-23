@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnweUqdvOAM2sY2iuSYSGTaZDpweRQi5ATaHIdhDUfXCwn08Z6MZ+w3gyVXJuvpEB49HCrMVbuc/F7o+q5QZFg==",
+  "dgSpecHash": "icHLx3MfJP3t4OrNEr1RS3oyQsbkDzImsnCklelgkGTwS32kHCE3i7EVQ5snra35tUh2w3bqZVOyRmTO45bn2w==",
   "success": true,
-  "projectFilePath": "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\WsFirst.csproj",
+  "projectFilePath": "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/WsFirst.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace WsFirst.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -42,5 +42,22 @@ namespace WsFirst.Controllers
             })
             .ToArray();
         }
+
+
+        [HttpGet("{id}")]
+        public WeatherForecast GetOne(long id)
+        {
+            
+            var rng = new Random();
+            return new WeatherForecast
+            {
+                Date = DateTime.Now,
+                TemperatureC = rng.Next(-20, 55),
+                Summary = Summaries[rng.Next(Summaries.Length)],
+                Town = Towns[rng.Next(Towns.Length)]
+            };
+        }
     }
+
+    
 }

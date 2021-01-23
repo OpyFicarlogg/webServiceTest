@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\WsFirst.csproj": {}
+    "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/WsFirst.csproj": {}
   },
   "projects": {
-    "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\WsFirst.csproj": {
+    "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/WsFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\WsFirst.csproj",
+        "projectUniqueName": "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/WsFirst.csproj",
         "projectName": "WsFirst",
-        "projectPath": "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\WsFirst.csproj",
-        "packagesPath": "C:\\Users\\Samuel FUCHS\\.nuget\\packages\\",
-        "outputPath": "D:\\AppData\\Dev\\Visual Studio Repos\\WsFirst\\WsFirst\\WsFirst\\obj\\",
+        "projectPath": "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/WsFirst.csproj",
+        "packagesPath": "/home/ficarlo/.nuget/packages/",
+        "outputPath": "/home/ficarlo/Documents/Dev/webServiceTest/WsFirst/WsFirst/WsFirst/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Samuel FUCHS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/ficarlo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
