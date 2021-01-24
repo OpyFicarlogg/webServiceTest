@@ -1,0 +1,16 @@
+/var/netcore/WsFirst
+/var/netcore/appsettings.Development.json
+/var/netcore/appsettings.json
+/var/netcore/WsFirst.dll
+/var/netcore/WsFirst.deps.json
+/var/netcore/WsFirst.runtimeconfig.json
+/var/netcore/WsFirst.pdb
+/var/netcore/DnsClient.dll
+/var/netcore/MongoDB.Bson.dll
+/var/netcore/MongoDB.Driver.dll
+/var/netcore/MongoDB.Driver.Core.dll
+/var/netcore/MongoDB.Libmongocrypt.dll
+/var/netcore/SharpCompress.dll
+/var/netcore/runtimes/win/native/libzstd.dll
+/var/netcore/runtimes/win/native/snappy32.dll
+/var/netcore/runtimes/win/native/snappy64.dll
