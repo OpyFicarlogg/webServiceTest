@@ -37,6 +37,8 @@ namespace WsFirst
 
             services.AddSingleton<BookService>();
 
+            services.AddSingleton<ArticleService>();
+
             services.AddControllers();
         }
 
