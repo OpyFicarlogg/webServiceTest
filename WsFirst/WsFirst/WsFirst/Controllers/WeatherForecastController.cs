@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WsFirst.Services;
 
 namespace WsFirst.Controllers
 {
@@ -32,6 +33,16 @@ namespace WsFirst.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            Response.Headers.Add("testsf","valeurtest123");
+
+            CookieActions cookie = new CookieActions{
+                response = Response,
+                request = Request
+            };
+
+            cookie.SetCookie("testcookie","testvaluecookie",60);
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
